@@ -1,0 +1,28 @@
+<template>
+  <div>
+    <!--We divide the sub-items in the sidebar into components.-->
+    <li class="nav-item">
+      <a class="nav-link" href="tables.html">
+        <i class="fas fa-fw fa-table"></i>
+        <span>Tables</span></a
+      >
+    </li>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider d-none d-md-block" />
+
+    <!-- Sidebar Toggler (Sidebar) -->
+    <div class="text-center d-none d-md-inline">
+      <button class="rounded-circle border-0" id="sidebarToggle"></button>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+    name:"NavTables"
+};
+</script>
+
+<style scoped>
+</style>
