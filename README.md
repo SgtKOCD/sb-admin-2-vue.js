@@ -1,5 +1,7 @@
 # hello-world
 
+# **Please look at the package.json file before starting the project!!!**
+
 ## Project setup
 ```
 npm install
